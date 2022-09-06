@@ -12,7 +12,7 @@ public interface IPersonaService {
 
 	public void actualizar(Persona p);
 
-	public void eliminarPorId(Integer id);
+	public void eliminar(Integer id);
 	
 	public List<Persona> buscarTodos();
 

@@ -30,7 +30,7 @@ public class PersonaServiceImpl implements IPersonaService {
 	}
 
 	@Override
-	public void eliminarPorId(Integer id) {
+	public void eliminar(Integer id) {
 		this.iPersonaJpaRepository.eliminar(id);
 	}
 
